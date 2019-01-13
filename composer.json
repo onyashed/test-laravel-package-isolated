@@ -1,0 +1,19 @@
+{
+    "name": "good-system/test-laravel-package-isolated",
+    "authors": [
+        {
+            "name": "Good System",
+            "email": "real.good.system@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "orchestra/testbench": "^3.7",
+        "phpunit/phpunit": "^7.5"
+    },
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "GoodSystem\\TestPackage\\": "src"
+        }
+    }
+}
