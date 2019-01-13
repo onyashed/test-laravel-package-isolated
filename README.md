@@ -1,0 +1,1 @@
+## Companion Repo for Medium Post [Laravel Package Testing with Testbench Component (orchestral/testbench)](https://medium.com/@realgoodsystem/laravel-package-testing-with-testbench-component-orchestral-testbench-7d7ec95d9be8)
