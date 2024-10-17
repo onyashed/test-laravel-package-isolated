@@ -1,19 +1,33 @@
 {
-    "name": "good-system/test-laravel-package-isolated",
+    "name": "goodsystem/testpackage",
     "authors": [
         {
             "name": "Good System",
             "email": "real.good.system@gmail.com"
         }
     ],
+    "minimum-stability": "dev",
     "require-dev": {
-        "orchestra/testbench": "^3.7",
-        "phpunit/phpunit": "^7.5"
+        "orchestra/testbench": "*",
+        "phpunit/phpunit": "11.3.x-dev"
     },
-    "require": {},
+    
+    "extra": {
+        "laravel": {
+            "providers": [
+                "GoodSystem\\TestPackage\\TestPackageServiceProvider"
+            ]
+        }
+        
+    },
     "autoload": {
         "psr-4": {
-            "GoodSystem\\TestPackage\\": "src"
+            "GoodSystem\\TestPackage\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "GoodSystem\\TestPackage\\Tests\\": "tests/"
         }
     }
 }

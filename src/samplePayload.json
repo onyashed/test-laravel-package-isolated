@@ -1,0 +1,18 @@
+/*//Headers
+//Key: Authorization
+//Value: Bearer GbBGreSKzHoCf1CoecPGOeqtCqN4
+
+Body*/
+  {
+    "BusinessShortCode": 174379,
+    "Password": "MTc0Mzc5YmZiMjc5ZjlhYTliZGJjZjE1OGU5N2RkNzFhNDY3Y2QyZTBjODkzMDU5YjEwZjc4ZTZiNzJhZGExZWQyYzkxOTIwMjQxMDAxMTAzOTEx",
+    "Timestamp": "20241001103911",
+    "TransactionType": "CustomerPayBillOnline",
+    "Amount": 1,
+    "PartyA": 254720581199,
+    "PartyB": 174379,
+    "PhoneNumber": 254720581199,
+    "CallBackURL": "https://mydomain.com/path",
+    "AccountReference": "Internetpap",
+    "TransactionDesc": "Payment of X" 
+  }
