@@ -6,7 +6,7 @@
             "email": "real.good.system@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require-dev": {
         "orchestra/testbench": "*",
         "phpunit/phpunit": "11.3.x-dev"
