@@ -1,15 +1,15 @@
 <?php
 // test-laravel-package-isolated/src/TestPackageServiceProvider.php
-namespace GoodSystem\TestPackage;
+namespace VeryGood\Freighter;
 
 use Illuminate\Support\ServiceProvider;
 
-class TestPackageServiceProvider extends ServiceProvider
+class FreighterServiceProvider extends ServiceProvider
 {
     public function boot(\Illuminate\Routing\Router $router)
     {
         $this->loadRoutesFrom(__DIR__.'/../routes/Test.php');
-        $this->loadRoutesFrom(__DIR__.'/../routes/MpesaRoutes.php');
+        $this->loadRoutesFrom(__DIR__.'/../routes/freighter_routes.php');
         $this->loadViewsFrom(__DIR__.'/../resources/views', 'test');
         //commands
         $this->commands([

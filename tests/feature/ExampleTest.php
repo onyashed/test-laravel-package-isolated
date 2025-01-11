@@ -4,7 +4,7 @@
 //use GoodSystem\TestPackage\Tests\RouteTest as TestCase;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 //use \Ochestra\Testbench\TestCase;
-use GoodSystem\TestPackage\Tests\RouteTest;
+use VeryGood\TestPackage\Tests\RouteTest;
 
 class ExampleTest extends  RouteTest
 {

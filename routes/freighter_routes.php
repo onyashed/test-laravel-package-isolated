@@ -2,15 +2,15 @@
 
 // test-laravel-package-isolated/src/routes/Test.php
 
-Route::get('goodsystem/testpack/mpesa/test', function () {
+Route::get('verygood/freighter/test', function () {
     return view('test::default');
 });
 ///
-Route::get('goodsystem/testpack/installmpesapackage', function () {
+Route::get('verygood/freighter/testpack/installmpesapackage', function () {
     Artisan::call('testpackage:remove', [
     ]);
 
-    return 'Mpesa package Installed successfully.';
+    return 'Freight package Installed successfully.';
 });
 //Route::auth()->name('login');
 /*Route::get('make-migration', function () {

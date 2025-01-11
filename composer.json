@@ -1,9 +1,9 @@
 {
-    "name": "goodsystem/testpackage",
+    "name": "verygood/freighter",
     "authors": [
         {
-            "name": "Good System",
-            "email": "real.good.system@gmail.com"
+            "name": "VeryGood Freighter",
+            "email": "dev@verygood.co.ke"
         }
     ],
     "minimum-stability": "dev",
@@ -15,19 +15,19 @@
     "extra": {
         "laravel": {
             "providers": [
-                "GoodSystem\\TestPackage\\TestPackageServiceProvider"
+                "VeryGood\\Freighter\\FreighterServiceProvider"
             ]
         }
         
     },
     "autoload": {
         "psr-4": {
-            "GoodSystem\\TestPackage\\": "src/"
+            "VeryGood\\Freighter\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "GoodSystem\\TestPackage\\Tests\\": "tests/"
+            "VeryGood\\Freighter\\Tests\\": "tests/"
         }
     }
 }

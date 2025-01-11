@@ -1,7 +1,7 @@
 <?php
 
 // test-laravel-package-isolated/src/routes/Test.php
-
+use Illuminate\Support\Facades\Route;
 Route::get('goodsystem/testpack/test', function () {
     return view('test::default');
 });

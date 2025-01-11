@@ -1,10 +1,10 @@
 <?php
-namespace GoodSystem\TestPackage\Tests\Feature;
+namespace VeryGood\Freighter\Tests\Feature;
 //use GoodSystem\TestPackage\PressBaseServiceProvider;
 
 //use Asanta\Press\Tests\BaseTest;
 //use Asanta\Press\Tests\TestCase;
-use GoodSystem\TestPackage\Mpesa;
+//use GoodSystem\TestPackage\Mpesa;
 use GoodSystem\TestPackage\MyClass;
 //Test authentication to mpesa sand box
 //use GoodSystem\TestPackage\Tests\RouteTest as TestCase;

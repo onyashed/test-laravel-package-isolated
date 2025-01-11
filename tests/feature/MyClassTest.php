@@ -1,14 +1,14 @@
 <?php
 namespace GoodSystem\TestPackage\Tests\Feature;
 //use PHPUnit\Framework\TestCase;
-//use Tests\TestCase;
+use GoodSystem\TestPackage\Tests\RouteTest as TestCase;
 use GoodSystem\TestPackage\MyClass;
 use GoodSystem\TestPackage\Mpesa;
 
 
 //require_once 'src/bootstrap.php';
 /** @test */
-class MyClassTest extends \Orchestra\Testbench\TestCase
+class MyClassTest extends TestCase
 {
     public function testConcatenateStrings()
     {
